@@ -1,0 +1,26 @@
+## Step1
+install npm package
+```shell copy
+npm i -D dose3ui@latest
+```
+
+## Step 2
+
+add plugin config in `tailwind.config.js` file
+```js {12} filename="tailwind.config.js" copy
+/** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
+
+export default {
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+],
+theme: {
+    extend: {},
+},
+plugins: [require('dose3ui')], // add plugin like this
+}
+```
+
+## Step 3

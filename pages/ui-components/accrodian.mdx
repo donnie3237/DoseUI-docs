@@ -1,0 +1,37 @@
+import { Tabs } from 'nextra/components'
+ 
+<Tabs items={['UI', 'Code']}>
+  <Tabs.Tab>
+    <>
+        <details class="d-accrodian">
+            <summary class="d-accrodian-head">What is an accordion</summary>
+            <p class="d-accrodian-content">An accordion is a UI element that consists of collapsible panels. Clicking on a panel's header will expand or collapse its content.</p>
+        </details>
+        <details class="d-accrodian">
+            <summary class="d-accrodian-head">How do I use an accordion?</summary>
+            <p class="d-accrodian-content">You can use accordions to display FAQs, product descriptions, or any other type of content that can be organized into separate sections.</p>
+        </details>
+        <details class="d-accrodian">
+            <summary class="d-accrodian-head">Benefits of using accordions?</summary>
+            <p class="d-accrodian-content">Accordions can improve website usability by making content easier to find and save space by hiding non-essential content.</p>
+        </details>
+    </>
+  </Tabs.Tab>
+  <Tabs.Tab>
+```html copy
+<details class="d-accrodian">
+    <summary class="d-accrodian-head">What is an accordion</summary>
+    <p class="d-accrodian-content">An accordion is a UI element that consists of collapsible panels. Clicking on a panel's header will expand or collapse its content.</p>
+</details>
+<details class="d-accrodian">
+    <summary class="d-accrodian-head">How do I use an accordion?</summary>
+    <p class="d-accrodian-content">You can use accordions to display FAQs, product descriptions, or any other type of content that can be organized into separate sections.</p>
+</details>
+<details class="d-accrodian">
+    <summary class="d-accrodian-head">Benefits of using accordions?</summary>
+    <p class="d-accrodian-content">Accordions can improve website usability by making content easier to find and save space by hiding non-essential content.</p>
+</details>
+```
+  </Tabs.Tab>
+</Tabs>
+
