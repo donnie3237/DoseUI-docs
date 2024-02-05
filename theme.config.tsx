@@ -47,9 +47,9 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    link: 'https://github.com/donnie3237',
+    link: 'https://github.com/donnie3237/DoseUI',
   },
-  docsRepositoryBase: 'https://github.com/donnie3237',
+  docsRepositoryBase: 'https://github.com/donnie3237/DoseUI-docs',
   footer: {
     component: (
       <footer style={{marginBottom: "20px" , display: 'flex' , justifyContent:'center', alignItems:'center' , width: "100vw"}}>
