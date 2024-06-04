@@ -1,0 +1,6 @@
+name,price,size
+T-Shirt,300,M
+Polo,250,S
+Trousers,450,S
+Slacks,500,L
+Jeans,1000,M

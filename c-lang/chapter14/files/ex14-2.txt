@@ -1,0 +1,5 @@
+elon:elon@musk.com
+bill:bill@gates.net
+tim:tim@cook.org
+mark:mark@zuck.info
+jeff:jeff@bezos.biz
