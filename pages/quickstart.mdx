@@ -1,8 +1,9 @@
 import { Steps } from 'nextra/components'
 import { Tabs } from 'nextra/components'
-
+import { Callout } from 'nextra/components'
+ 
 <Steps>
-## Step 1 
+### Installation
 <Tabs items={['pnpm', 'npm', 'bun']}>
   <Tabs.Tab>
     ```shell copy 
@@ -21,7 +22,7 @@ import { Tabs } from 'nextra/components'
   </Tabs.Tab>
 </Tabs>
  
-## Step 2
+### Configuration
 add plugin config in `tailwind.config.js` file
 ```js {4} filename="tailwind.config.js" copy
 const plugin = require('tailwindcss/plugin')
@@ -30,6 +31,9 @@ export default {
   plugins: [require('dose3ui')], // add plugin like this
 }
 ``` 
-## Step 3
-enjoy with cool layout and components
+### Get started
+
+<Callout emoji="👾">
+  enjoy with cool layout and components
+</Callout>
 </Steps>
