@@ -1,0 +1,38 @@
+import { Tabs } from 'nextra/components'
+ 
+<Tabs items={['UI', 'Code']}>
+  <Tabs.Tab>
+    <div className="w-[100%] mt-3 h-[700px]">
+      <div className='flex'>
+        <div className='w-[100%] h-[200px] bg-black'></div>
+      </div>
+      <div className='flex mt-2'>
+        <div className='w-[calc(50%)] h-[200px] bg-black mr-2'></div>
+        <div className='w-[50%] h-[200px] bg-black'></div>
+      </div>
+      <div className='flex mt-2'>
+        <div className='w-[calc(33%-8px)] h-[200px] bg-black mr-2'></div>
+        <div className='w-[calc(34%-8px)] h-[200px] bg-black mr-2'></div>
+        <div className='w-[33%] h-[200px] bg-black'></div>
+      </div>
+    </div>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```html
+    <button className="d-btn">d-btn</button>
+    ```
+  </Tabs.Tab>
+</Tabs>
+<Tabs items={['UI', 'Code']}>
+  <Tabs.Tab>
+    <div className="w-[100%] mt-3 h-[700px] flex justify-center items-center bg-gray-500">
+      <div className='w-[300px] h-[300px] bg-black'></div>
+    </div>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```html
+    <button className="d-btn">d-btn</button>
+    ```
+  </Tabs.Tab>
+</Tabs>
+

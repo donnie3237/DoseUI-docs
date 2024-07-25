@@ -1,13 +1,13 @@
 import { Tabs } from 'nextra/components'
- 
+import {MasonryX} from '../../components/masonry.tsx'
+
 <Tabs items={['UI', 'Code']}>
-  <Tabs.Tab><div className="">
-    <button className="d-btn">d-btn</button>
-  </div></Tabs.Tab>
+  <Tabs.Tab>
+    <MasonryX/>
+  </Tabs.Tab>
   <Tabs.Tab>
     ```html
     <button className="d-btn">d-btn</button>
     ```
   </Tabs.Tab>
 </Tabs>
-
